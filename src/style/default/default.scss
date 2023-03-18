@@ -1,0 +1,26 @@
+// ================container================
+
+body {
+  @include font( 16px, 1.5, $colorDark, $fontName, 400 );
+}
+
+header,
+main,
+footer {
+  margin: 18px 0 0 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.container {
+  width: 1190px;
+  margin: 0 auto;
+}

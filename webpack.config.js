@@ -16,6 +16,11 @@ module.exports = {
     port: 3000,
     open: true,
     hot: true,
+    
+  },
+  watch: true,
+  watchOptions: {
+    ignored: /node_modules/,
   },
   entry: path.resolve(__dirname, 'src', 'index.js'),
   output: {

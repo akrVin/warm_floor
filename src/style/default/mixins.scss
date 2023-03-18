@@ -1,13 +1,23 @@
+@import 'vars.scss';
+
 // ============ fonts ===============
 
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+    @font-face {
+        font-family: $font-family;
+        font-weight: $weight;
+        font-style: $style;
+        src: url('#{$file-path}.eot');
+        src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'), 
+            url('#{$file-path}.woff') format('woff'); 
+            // url('#{$file-path}.ttf') format('truetype');
+    }
+}
 
-@mixin font($fontName, $urlName: $fontName, $weight, $style) {
-    font-family: '${fontName}';
-    src: url('../fonts/${urlName}/${urlName}.eot');
-    src: url('../fonts/${urlName}/${urlName}.eot#iefix') format('embedded-opentype'),
-        url('../fonts/${urlName}/${urlName}.woff') format('woff'),
-        url('../fonts/${urlName}/${urlName}.ttf') format('truetype'),
-        url('../fonts/${urlName}/${urlName}.svg') format('svg');
-            font-weight: $weight;
-            font-style: $style;
+@mixin font( $fontSize, $lineHeght, $textColor, $fontName, $weight ) {
+    font-family: $fontName;
+    font-weight: $weight;
+    font-size: $fontSize;
+    line-height: $lineHeght;
+    color: $textColor;
 }
