@@ -1,18 +1,19 @@
 
 .social {
+	margin-right: 126px;
 
 		/* .social__list */
 
-		&__list {
+	&__list {
+		display: flex;
+	}
+
+	/* .social__item */
+
+	&__item {
+		margin-right: 24px;
+		&:last-child {
+			margin-right: 0;
 		}
-
-		/* .social__item */
-
-		&__item {
-		}
-
-		/* .social__link */
-
-		&__link {
-		}
+	}
 }

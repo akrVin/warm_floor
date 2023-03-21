@@ -4,6 +4,10 @@
 		/* .developer__item */
 
 		&__item {
+			margin-bottom: 8px;
+			&:last-child {
+				margin-bottom: 0;
+			}
 		}
 
 		/* .developer__text */
