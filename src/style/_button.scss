@@ -1,11 +1,10 @@
 
 .btn {
   padding: 18px 40px;
-  border: 1px solid $colorDark;
   border-radius: 24px;
   @include font( 16px, 19px, $colorDark, $fontName, 400 );
   text-transform: uppercase;
-  background-color: $wight;
+  background-color: transparent;
   transition-property: background-color, border;
   transition-duration: 0.3s;
   transition-timing-function: linear;

@@ -1,0 +1,21 @@
+
+.content {
+
+  /* .content__title */
+
+  &__title {
+    @include fontProperties(44px, 500, 1.3, $colorDark, uppercase);
+  }
+
+  /* .content__text */
+
+  &__text {
+    @include fontProperties(16px, 400, 1.3, $colorDark, uppercase);
+  }
+
+  /* .content__button */
+
+  &__button {
+    @include fontProperties(16px, 400, 1.3, $colorDark, uppercase);
+  }
+}

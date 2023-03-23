@@ -16,3 +16,11 @@
     line-height: $lineHeght;
     color: $textColor;
 }
+
+@mixin fontProperties($fontSize, $weight, $lineHeght, $textColor, $textTransform) {
+    font-size: $fontSize;
+    font-weight: $weight;
+    line-height: $lineHeght;
+    color: $textColor;
+    text-transform: $textTransform;
+}

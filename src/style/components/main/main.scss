@@ -1,0 +1,24 @@
+@import 'components/hero/content.scss';
+@import 'components/hero/slider.scss';
+
+.hero {
+
+  /* .hero__container */
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  /* .hero__content */
+
+  &__content {
+  }
+
+  /* .hero__slider */
+
+  &__slider {
+  }
+}
+.slider {
+}
