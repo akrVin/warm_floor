@@ -19,13 +19,14 @@ a {
   flex-direction: column;
   min-height: 100%;
   max-width: 100%;
+  overflow: hidden;
 }
 
 main {
   flex: 1 1 auto;
 }
 
-.section {
+section {
   padding: 40px 0;
   &:first-child {
     padding: 0 0 40px 0;
@@ -35,6 +36,10 @@ main {
 .visuale-hidden {
   position: fixed;
   transform: scale(0);
+}
+
+.title {
+  @include fontProperties(44px, 500, 1.3, $colorDark, uppercase);
 }
 
 // .logo {

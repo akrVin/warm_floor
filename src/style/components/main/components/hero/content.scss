@@ -1,8 +1,6 @@
 
 .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-color: $lightGreyLighten;
   padding: 50px;
 
   /* .content__description */
@@ -14,7 +12,6 @@
   /* .content__title */
 
   &__title {
-    @include fontProperties(44px, 500, 1.3, $colorDark, uppercase);
     margin-bottom: 32px;
   }
 
@@ -22,11 +19,14 @@
 
   &__text {
     @include fontProperties(16px, 400, 1.5, $colorDark, uppercase);
+    margin-bottom: 20px;
   }
 
   /* .content__button */
 
   &__button {
+    display: inline-block;
     @include fontProperties(16px, 400, 1.3, $colorDark, uppercase);
+    background-color: $darkYellow;
   }
 }

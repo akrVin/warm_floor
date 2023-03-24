@@ -1,5 +1,7 @@
+@import 'components/hero/hero.scss';
 @import 'components/hero/content.scss';
 @import 'components/hero/slider.scss';
+@import 'components/adventages/adventages.scss';
 
 .hero {
 
@@ -20,8 +22,7 @@
   /* .hero__slider */
 
   &__slider {
+    border-radius: 12px;
     flex-basis: 50%;
   }
-}
-.slider {
 }

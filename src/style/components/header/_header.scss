@@ -12,6 +12,14 @@
 		/* .header__button */
 
 		&__button {
-  		border: 1px solid $colorDark;
+			border: 1px solid $colorDark;
+			background-color: transparent;
+			transition-property: background-color, border;
+			transition-duration: 0.3s;
+			transition-timing-function: linear;
+			&:hover {
+				background-color: $darkYellow;
+				border: 1px solid  $darkYellow;
+			}
 		}
 }

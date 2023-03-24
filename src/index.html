@@ -42,7 +42,7 @@
 <!-- ? ============================================ -->
             <div class="content__description">
 <!-- ? ============================================ -->
-              <h2 class="content__title">
+              <h2 class="content__title title">
                 Приносим тепло в&nbsp;каждый дом
               </h2>
 <!-- ? ============================================ -->
@@ -62,6 +62,10 @@
             <div class="swiper-wrapper">
               <!-- ? Slides -->
               <img class="swiper-slide" src="img/rectangle_1.jpg" alt="">
+              <img class="swiper-slide" src="img/rectangle_2.jpg" alt="">
+              <img class="swiper-slide" src="img/rectangle_3.jpg" alt="">
+              <img class="swiper-slide" src="img/rectangle_4.jpg" alt="">
+              <img class="swiper-slide" src="img/rectangle_5.jpg" alt="">
             </div>
             <!-- ? If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -83,7 +87,16 @@
       <section class="advantages">
 
         <div class="advantages__container container">
-
+          <div class="advantages__content">
+            <h2 class="advantages__title title">Наши преимущества</h2>
+            <ul class="advantages__list">
+              <li class="advantages__item">Надежные материалы</li>
+              <li class="advantages__item">опытные монтажники</li>
+              <li class="advantages__item">Регулируемая температура пола</li>
+              <li class="advantages__item">Защита от замыканий</li>
+              <li class="advantages__item">Гарантия до 10 лет</li>
+            </ul>
+          </div>
         </div>
         
 
@@ -98,7 +111,82 @@
       <section class="calc">
 
         <div class="calc__container container">
+          <div class="calc__content content">
+            <h2 class="calc__title title">Рассчитайте стоимость</h2>
+            <form class="calc__form form">
 
+              <fieldset class="form__fieldset form__fieldset--size">
+                <label class="calc__wrapper-input calc__wrapper-input-size">
+                  <span class="calc__text">Ширина помещения, м</span>
+                  <input type="number" class="calc__input-number" name="width" required>
+                </label>
+
+                <label class="calc__wrapper-input calc__wrapper-input-size">
+                  <span class="calc__text">Длина помещения, м</span>
+                  <input type="number" class="calc__input-number" name="length" required>
+                </label>
+              </fieldset>
+
+              <fieldset class="form__fieldset form__fieldset--tariff">
+                <legend class="calc__text calc__text--legend">
+                  Тариф
+                </legend>
+
+                <label class="calc__wrapper-input calc__wrapper-input-tariff">
+
+                  <input class="calc__input-radio" type="radio" name="tariff" value="economy">
+                  <span class="calc__text-radio">Эконом</span>
+
+                </label>
+
+                <label class="calc__wrapper-input calc__wrapper-input-tariff">
+
+                  <input class="calc__input-radio" type="radio" name="tariff" value="comfort" checked>
+                  <span class="calc__text-radio">Комфорт</span>
+
+                </label>
+
+                <label class="calc__wrapper-input calc__wrapper-input-tariff">
+
+                  <input class="calc__input-radio" type="radio" name="tariff" value="premium">
+                  <span class="calc__text-radio">Премиум</span>
+
+                </label>
+              </fieldset>
+
+            </form>
+            <button class="calc__button btn">Рассчитать</button>
+          </div>
+          <!-- ? ====== calc__img ======= -->
+          <div class="calc__total">
+            <div class="calc__result-wrapper">
+              <p class="calc__result">
+
+                <span class="calc__text">
+                  Площадь
+                </span>
+
+                <span class="calc__result-text">
+                  35 кв м
+                </span>
+
+
+              </p>
+
+              <p class="calc__result">
+
+                <span class="calc__text">
+                  Примерная стоимость
+                </span>
+
+                <span class="calc__result-text">
+                  42590 руб
+                </span>
+
+
+              </p>
+            </div>
+          </div>
         </div>
         
 
