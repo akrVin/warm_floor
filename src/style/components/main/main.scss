@@ -7,17 +7,20 @@
 
   &__container {
     display: flex;
-    align-items: center;
+    max-height: 530px;
   }
 
   /* .hero__content */
 
   &__content {
+    flex-basis: 50%;
+    margin-right: 10px;
   }
 
   /* .hero__slider */
 
   &__slider {
+    flex-basis: 50%;
   }
 }
 .slider {
