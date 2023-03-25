@@ -3,13 +3,11 @@
   /* .calc__container */
 
   &__container {
-    display: flex;
   }
 
   /* .calc__content */
 
   &__content {
-
   }
 
   /* .calc__title */
@@ -20,51 +18,6 @@
   /* .calc__form */
 
   &__form {
-  }
-
-  /* .calc__wrapper-input */
-
-  &__wrapper-input {
-  }
-
-  /* .calc__wrapper-input-size */
-
-  &__wrapper-input-size {
-  }
-
-  /* .calc__text */
-
-  &__text {
-  }
-
-  /* .calc__input-number */
-
-  &__input-number {
-  }
-
-  /* .calc__text--legend */
-
-  &__text--legend {
-  }
-
-  /* .calc__wrapper-input-tariff */
-
-  &__wrapper-input-tariff {
-  }
-
-  /* .calc__input-radio */
-
-  &__input-radio {
-  }
-
-  /* .calc__text-radio */
-
-  &__text-radio {
-  }
-
-  /* .calc__button */
-
-  &__button {
   }
 
   /* .calc__total */
@@ -82,6 +35,11 @@
   &__result {
   }
 
+  /* .calc__text */
+
+  &__text {
+  }
+
   /* .calc__result-text */
 
   &__result-text {
@@ -95,14 +53,75 @@
   &__fieldset {
   }
 
-  /* .form__fieldset--size */
+  /* .form__fieldset-input */
 
-  &__fieldset--size {
+  &__fieldset-input {
   }
 
-  /* .form__fieldset--tariff */
+  /* .form__label */
 
-  &__fieldset--tariff {
+  &__label {
+  }
+
+  /* .form__fieldset-width */
+
+  &__fieldset-width {
+  }
+
+  /* .form__text */
+
+  &__text {
+  }
+
+  /* .form__input-number */
+
+  &__input-number {
+  }
+
+  /* .form__fieldset-length */
+
+  &__fieldset-length {
+  }
+
+  /* .form__fieldset-tariff */
+
+  &__fieldset-tariff {
+  }
+
+  /* .form__legend */
+
+  &__legend {
+  }
+
+  /* .form__label-ragio */
+
+  &__label-ragio {
+  }
+
+  /* .form__label-radio-tariff */
+
+  &__label-radio-tariff {
+  }
+
+  /* .form__input-radio */
+
+  &__input-radio {
+  }
+
+  /* .form__text-radio */
+
+  &__text-radio {
+  }
+
+  /* .form__label-radio */
+
+  &__label-radio {
+  }
+
+  /* .form__button */
+
+  &__button {
   }
 }
-
+.btn {
+}
