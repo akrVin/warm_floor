@@ -111,80 +111,83 @@
       <section class="calc">
 
         <div class="calc__container container">
-          <div class="calc__content content">
-            <h2 class="calc__title title">Рассчитайте стоимость</h2>
-            <form class="calc__form form">
+          <div class="calc__wrapper">
+            <div class="calc__content content">
+              <h2 class="calc__title title">Рассчитайте стоимость</h2>
+              <form class="calc__form form">
 
-              <fieldset class="form__fieldset form__fieldset-input">
-                <label class="form__label form__fieldset-width">
-                  <span class="form__text">Ширина помещения, м</span>
-                  <input class="form__input-number" type="number"name="width" required>
-                </label>
+                <fieldset class="form__fieldset form__fieldset-input">
+                  <label class="form__label form__fieldset-width">
+                    <span class="form__text">Ширина помещения, м</span>
+                    <input class="form__input-number" type="number"name="width" required >
+                  </label>
 
-                <label class="form__label form__fieldset-length">
-                  <span class="form__text">Длина помещения, м</span>
-                  <input class="form__input-number" type="number" name="length" required>
-                </label>
-              </fieldset>
+                  <label class="form__label form__fieldset-length">
+                    <span class="form__text">Длина помещения, м</span>
+                    <input class="form__input-number" type="number" name="length" required>
+                  </label>
+                </fieldset>
 
-              <fieldset class="form__fieldset form__fieldset-tariff">
-                <legend class="form__legend form__text">
-                  Тариф
-                </legend>
+                <fieldset class="form__fieldset form__fieldset-tariff">
+                  <legend class="form__legend form__text">
+                    Тариф
+                  </legend>
 
-                <label class="form__label-ragio form__label-radio-tariff">
+                  <label class="form__label-ragio form__label-radio-tariff">
 
-                  <input class="form__input-radio" type="radio" name="tariff" value="economy">
-                  <span class="form__text-radio">Эконом</span>
+                    <input class="form__input-radio" type="radio" name="tariff" value="economy">
+                    <span class="form__text-radio">Эконом</span>
 
-                </label>
+                  </label>
 
-                <label class="form__label-radio form__label-radio-tariff">
+                  <label class="form__label-radio form__label-radio-tariff">
 
-                  <input class="form__input-radio" type="radio" name="tariff" value="comfort" checked>
-                  <span class="form__text-radio">Комфорт</span>
+                    <input class="form__input-radio" type="radio" name="tariff" value="comfort" checked>
+                    <span class="form__text-radio">Комфорт</span>
 
-                </label>
+                  </label>
 
-                <label class="form__label-radio form__label-radio-tariff">
+                  <label class="form__label-radio form__label-radio-tariff">
 
-                  <input class="form__input-radio" type="radio" name="tariff" value="premium">
-                  <span class="form__text-radio">Премиум</span>
+                    <input class="form__input-radio" type="radio" name="tariff" value="premium">
+                    <span class="form__text-radio">Премиум</span>
 
-                </label>
-              </fieldset>
+                  </label>
+                </fieldset>
 
-            </form>
-            <button class="form__button btn">Рассчитать</button>
-          </div>
-          <!-- ? ====== calc__img ======= -->
-          <div class="calc__total">
-            <div class="calc__result-wrapper">
-              <p class="calc__result">
+              </form>
+              <button class="form__button btn">Рассчитать</button>
+            </div>
+          
+        <!-- ? ====== calc__img ======= -->
+            <div class="calc__total">
+              <div class="calc__result-wrapper">
+                <p class="calc__result">
 
-                <span class="calc__text">
-                  Площадь
-                </span>
+                  <span class="calc__text">
+                    Площадь
+                  </span>
 
-                <span class="calc__result-text">
-                  35 кв м
-                </span>
-
-
-              </p>
-
-              <p class="calc__result">
-
-                <span class="calc__text">
-                  Примерная стоимость
-                </span>
-
-                <span class="calc__result-text">
-                  42590 руб
-                </span>
+                  <span class="calc__result-text">
+                    35 кв м
+                  </span>
 
 
-              </p>
+                </p>
+
+                <p class="calc__result">
+
+                  <span class="calc__text">
+                    Примерная стоимость
+                  </span>
+
+                  <span class="calc__result-text">
+                    42590 руб
+                  </span>
+
+
+                </p>
+              </div>
             </div>
           </div>
         </div>
