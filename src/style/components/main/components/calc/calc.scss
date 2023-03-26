@@ -160,7 +160,7 @@
   /* .form__label-radio-tariff */
 
   &__label-radio-tariff {
-    position: relative;
+    display: inline-flex;
     margin-right: 10px;
     &:last-child {
       margin-right: 0;
@@ -170,17 +170,27 @@
   /* .form__input-radio */
 
   &__input-radio {
-    display: none;
-    &::before {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    appearance: none;
+    margin-right: 8px;
+      &::before {
       content: '';
-      // position: absolute;
-      // left: 0;
-      // top: 0;
-      // width: 24px;
-      // height: 24px;
-      // border-radius: 50%;
-      // border: 1px solid black;
-      // background-color: black;
+      position: absolute;
+      inset: 0;
+      background-color: $wight;
+      border: 1px solid $lightGreyDarken;
+      border-radius: 50%;
+    }
+    // $lightGreyDarken
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      transform: scale(0.33);
+      border-radius: 50%;
+      background-color: $colorDark;
     }
   }
 
