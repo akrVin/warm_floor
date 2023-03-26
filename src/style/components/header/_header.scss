@@ -1,25 +1,32 @@
 .header {
 	padding: 18px 0;
 
-		/* .header__container */
+	/* .header__container */
 
-		&__container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	/* .header__button */
+
+	&__button {
+		border: 1px solid $colorDark;
+		background-color: transparent;
+		transition-property: background-color;
+		transition-duration: 0.3s;
+		transition-timing-function: linear;
+		&:hover {
+			background-color: $lightYellow;
+			border: 1px solid  $darkYellow;
 		}
-
-		/* .header__button */
-
-		&__button {
-			border: 1px solid $colorDark;
+		&:disabled {
 			background-color: transparent;
-			transition-property: background-color, border;
-			transition-duration: 0.3s;
-			transition-timing-function: linear;
-			&:hover {
-				background-color: $darkYellow;
-				border: 1px solid  $darkYellow;
-			}
+			border: 1px solid  $lightGreyDarken;
+			color: $grey;
+			cursor: default;
 		}
+	}
 }
+

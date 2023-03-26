@@ -15,7 +15,6 @@
   /* .calc__content */
 
   &__content {
-    border-radius: 12px;
     flex-basis: 50%;
     margin-right: 10px;
   }
@@ -119,7 +118,7 @@
   /* .form__text */
 
   &__text {
-    @include fontProperties(12px, 400, 1.5, $colorDark, none);
+    @include fontProperties(12px, 400, 1.5, $grey, none);
   }
 
   /* .form__input-number */
@@ -148,7 +147,7 @@
   /* .form__legend */
 
   &__legend {
-    @include fontProperties(12px, 400, 1.5, $colorDark, uppercase);
+    @include fontProperties(12px, 400, 1.5, $grey, uppercase);
   }
 
   /* .form__label-ragio */
@@ -191,6 +190,13 @@
       transform: scale(0.33);
       border-radius: 50%;
       background-color: $colorDark;
+      opacity: 0;
+      
+    }
+    &:checked {
+      &::after {
+      opacity: 1;
+      }
     }
   }
 
@@ -210,6 +216,17 @@
   &__button {
     @include fontProperties(16px, 400, 1.3, $colorDark, uppercase);
     background-color: $darkYellow;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    &:hover {
+      background-color: $lightYellow;
+    }
+    &:disabled {
+      background-color: $grey;
+      color: $colorDisabled;
+      cursor: default;
+    }
   }
 }
 
