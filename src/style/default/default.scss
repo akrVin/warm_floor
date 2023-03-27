@@ -51,8 +51,24 @@ section {
   margin: 0 auto;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1024px) {
   .container {
-    padding: 0 10px;
+    max-width: 890px;
+  }
+  
+  .title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 630px;
+  }
+}
+
+@media (min-width: 320px) {
+  .container {
+    padding: 0 6px;
   }
 }
