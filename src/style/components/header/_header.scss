@@ -21,12 +21,6 @@
 			background-color: $lightYellow;
 			border: 1px solid  $darkYellow;
 		}
-		&:disabled {
-			background-color: transparent;
-			border: 1px solid  $lightGreyDarken;
-			color: $grey;
-			cursor: default;
-		}
 	}
 }
 

@@ -6,5 +6,11 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  .btn {
+    padding: 10px 24px;
+  }
+}
+
 
 
