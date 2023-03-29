@@ -17,7 +17,7 @@
   /* .hero__content */
 
   &__content {
-    flex-basis: 50%;
+    width: 50%;
     margin-right: 10px;
   }
 
@@ -25,7 +25,7 @@
 
   &__slider {
     border-radius: 12px;
-    flex-basis: 50%;
+    width: 50%;
   }
 }
 
@@ -36,13 +36,24 @@
 @media (max-width: 768px) {
   .hero__container {
     flex-direction: column;
-    max-height: 570px;
+    height: auto;
     
   }
 
   .hero__content {
+    width: 100%;
+    height: 50%;
     margin-right: 0;
     margin-bottom: 10px;
 
   }
+
+  .hero__slider {
+    width: 100%;
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+
 }

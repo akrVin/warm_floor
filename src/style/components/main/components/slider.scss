@@ -1,11 +1,5 @@
 
-.hero {
 
-  /* .hero__slider */
-
-  &__slider {
-  }
-}
 .slider {
   position: relative;
   overflow: content-box;
@@ -21,6 +15,7 @@
   display: flex;
 }
 .swiper-slide {
+  width: 100%;
   height: auto;
   margin-right: 10px;
 }

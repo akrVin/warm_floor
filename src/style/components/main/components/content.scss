@@ -45,13 +45,14 @@
 
 @media (max-width: 768px) {
   .content {
+    height: 50%;
     padding: 24px 70px 24px 24px;
     &__title {
-      margin-bottom: 24px;
+      margin-bottom: 16px;
     }
   
     &__text {
-      margin-bottom: 98px;
+      margin-bottom: 50px;
     }
   }
 
