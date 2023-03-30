@@ -7,14 +7,18 @@ import Swiper from 'swiper';
 import 'swiper/css';
 
 
-const swiper = new Swiper('.slider', {
+const swiper = new Swiper('.hero__slider', {
   // ! Optional parameters
   direction: 'horizontal',
   loop: true,
+  slidesPerView: 2,
+
+  // ! Distance between slides
+  spaceBetween: 10, 
 
   // ! Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.button__slider-next',
+    prevEl: '.button__slider-prev',
   },
 });

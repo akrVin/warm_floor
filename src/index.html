@@ -57,21 +57,34 @@
 <!-- ? ============================================ -->
           </div>
 <!-- ? ============================================ -->
-          <div class="hero__slider slider">
-            <!-- ? Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- ? Slides -->
-              <img class="swiper-slide" src="img/rectangle_1.jpg" alt="">
-              <img class="swiper-slide" src="img/rectangle_2.jpg" alt="">
-              <img class="swiper-slide" src="img/rectangle_3.jpg" alt="">
-              <img class="swiper-slide" src="img/rectangle_4.jpg" alt="">
-              <img class="swiper-slide" src="img/rectangle_5.jpg" alt="">
+          <div class="hero__slider-block">
+            <div class="hero__slider slider">
+              <!-- ? Additional required wrapper -->
+              <div class="swiper-wrapper slider__block">
+                <!-- ? Slides -->
+                <div class="swiper-slide slider__item">
+                  <img class="slider__image" src="img/rectangle_1.jpg" alt="slide-1">
+                </div>
+                <div class="swiper-slide slider__item">
+                  <img class="slider__image" src="img/rectangle_2.jpg" alt="slide-2">
+                </div>
+                <div class="swiper-slide slider__item">
+                  <img class="slider__image" src="img/rectangle_3.jpg" alt="slide-3">
+                </div>
+                <div class="swiper-slide slider__item">
+                  <img class="slider__image" src="img/rectangle_4.jpg" alt="slide-4">
+                </div>
+                <div class="swiper-slide slider__item">
+                  <img class="slider__image" src="img/rectangle_5.jpg" alt="slide-5">
+                </div>
+              </div>
+  
+              <!-- ? If we need navigation buttons -->
+              <div class="swiper-button-prev slider__button-prev"></div>
+              <div class="swiper-button-next slider__button-next"></div>
             </div>
-
-            <!-- ? If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
           </div>
+          
 <!-- ? ============================================ -->
         </div>
       </section>
