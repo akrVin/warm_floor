@@ -19,11 +19,7 @@
   /* .hero__content */
 
   &__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex:0 0 $widthBlock;
+
     margin-right: $marginBlocks;
   }
 
@@ -31,6 +27,7 @@
 
   &__slider {
     flex:0 0 $widthBlock;
+    max-width: $widthBlock;
     border-radius: 12px;
   }
 }
