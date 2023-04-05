@@ -1,2 +1,34 @@
 
+.swiper {
+  width: $widthSlide;
+  height: $heightSlide;
 
+  /* .swiper__wrapper */
+
+  &__wrapper {
+  }
+
+  /* .swiper__slide */
+
+  &__slide {
+    width: $widthSlide;
+    height: $heightSlide;
+  }
+
+  /* .swiper__slide-image */
+
+  &__slide-image {
+    width: $widthSlide;
+    height: $heightSlide;
+  }
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+  width: $widthSlide;
+  height: $heightSlide;
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}

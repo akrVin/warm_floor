@@ -16,7 +16,7 @@ const swiper = new Swiper('.swiper', {
   loop: true,
 
   // ! Distance between slides
-  spaceBetween: 10, 
+  // spaceBetween: 10, 
 
   // ! Navigation arrows
   navigation: {
