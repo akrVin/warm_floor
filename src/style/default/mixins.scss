@@ -24,3 +24,7 @@
     color: $textColor;
     text-transform: $textTransform;
 }
+
+@mixin arrow() {
+    background-image: url(../../../../img/svg/arrow.svg);
+}

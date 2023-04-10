@@ -1,26 +1,27 @@
 /** slider Swiper */
 // core version + navigation, pagination modules:
-import Swiper, { Navigation, Pagination } from 'swiper';
+import Swiper, { Navigation } from 'swiper';
 // import Swiper styles
 import 'swiper/css/bundle';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+// import 'swiper/css/pagination';
 
 
 const swiper = new Swiper('.swiper', {
   // configure Swiper to use modules
-  modules: [Navigation, Pagination],
+  modules: [Navigation],
 
   // ! Optional parameters
   direction: 'horizontal',
   loop: true,
+  slidesPerView: 1,
 
   // ! Distance between slides
-  // spaceBetween: 10, 
+  spaceBetween: 10, 
 
   // ! Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper__next',
+    prevEl: '.swiper__prev',
   },
 });
