@@ -40,53 +40,22 @@
 
   &__prev,
   &__next {
-    width: 42px;
-    height: 42px;
-    background-color: $darkYellow;
-    border-radius: 50%;
+    @include arrowSlider;
   }
 
   /* .swiper__prev */
 
   &__prev {
-    background-image: url(../../../../img/svg/arrow.svg);
     margin: 0 8px 0 0;
   }
 
   /* .swiper__next */
 
   &__next {
-    background-image: url(../../../../img/svg/arrow.svg);
     transform: rotate(180deg);
   }
 }
 .swiper-wrapper {
 }
 .swiper-slide {
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  // display: none;
-  // overflow: hidden;
-  // width: 42px;
-  // height: 42px;
-  // font-family: none;
-  // background-color: $darkYellow;
-  // border-radius: 50%;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  // display: none;
-  // overflow: hidden;
-  // width: 42px;
-  // height: 42px;
-  // background-color: $darkYellow;
-  // border-radius: 50%;
-}
-
-.swiper-button-prev {
-}
-.swiper-button-next {
 }

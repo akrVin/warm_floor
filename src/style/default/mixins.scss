@@ -25,6 +25,24 @@
     text-transform: $textTransform;
 }
 
-@mixin arrow() {
+@mixin arrowSlider() {
+    width: 42px;
+    height: 42px;
+    background-color: $darkYellow;
+    border-radius: 50%;
     background-image: url(../../../../img/svg/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px;
+    transition-property: background-color, background-size;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    &:hover {
+        background-color: $lightYellow;
+        background-size: 13px;
+    }
+    &:active {
+        background-color: $darkYellow;
+        background-size: 11px;
+    }
 }
